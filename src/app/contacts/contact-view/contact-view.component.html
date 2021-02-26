@@ -1,0 +1,26 @@
+<div>
+  <h2 class="title pb-5">Contact Detail</h2>
+  <div class="content">
+    <div class="card p-5">
+      <div class="mb-3">
+        <h5>Record ID: </h5>
+        <div>{{ contact.recordId }}</div>
+      </div>
+      <div class="mb-3">
+        <h5>Email: </h5>
+        <div>{{ contact.email }}</div>
+      </div>
+      <div class="mb-3">
+        <h5>First Name: </h5>
+        <div>{{ contact.firstName }}</div>
+      </div>
+      <div class="mb-3">
+        <h5>Last Name: </h5>
+        <div>{{ contact.lastName }}</div>
+      </div>
+      <div class="mt-3">
+        <button type="button" class="btn btn-secondary" (click)="back()">Back</button>
+      </div>
+    </div>
+  </div>
+</div>
